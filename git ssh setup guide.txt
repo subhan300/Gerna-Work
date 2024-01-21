@@ -1,0 +1,16 @@
+setup ssh : 
+to list own ,if previous you have some ssh available 
+ ls -al ~/.ssh
+
+
+generate ssh by copy paste below command ,change email :
+ssh-keygen -t rsa -b 4096 -C "subhan.akram2400@gmail.com"
+
+
+
+enter this in terminal to get you shh copied .
+
+clip < ~/.ssh/id_rsa.pub
+
+
+then open git ,go to setting,then create ssh and enter this copied ss key there .
