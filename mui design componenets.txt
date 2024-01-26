@@ -108,3 +108,37 @@ filled state compoenent
             },
           }}
         />
+
+
+
+
+
+
+
+
+  <Box sx={{ marginTop: "1rem" }}>
+        <TextField
+          helperText="Please enter your name"
+          id="demo-helper-text-aligned"
+          label="Name"
+          sx={{
+            "& .MuiOutlinedInput-root": {
+              "& fieldset": {
+                borderColor: "#E0E3E7 !important",
+              },
+              "&:hover fieldset": {
+                borderColor: "none !important",
+              },
+              "&.Mui-focused fieldset": {
+                borderWidth: "red",
+                borderColor: "red !important",
+              },
+            },
+            "& .MuiInputLabel-root": {
+              "&.Mui-focused": {
+                color: "green", // Change the color of the label on focus
+              },
+            },
+          }}
+        />
+      </Box>
