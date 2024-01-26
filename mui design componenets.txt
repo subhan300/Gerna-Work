@@ -1,0 +1,35 @@
+  <FormControl
+        sx={{
+          "& .MuiOutlinedInput-root": {
+            "& fieldset": {
+              borderColor: "#E0E3E7 !important",
+            },
+            "&:hover fieldset": {
+              borderColor: "none !important",
+            },
+            "&.Mui-focused fieldset": {
+              borderWidth: "1px",
+            },
+          },
+        }}
+        variant="outlined"
+      >
+        <OutlinedInput
+          placeholder="Password"
+          sx={{ border: "none !important" }}
+          id="outlined-adornment-password"
+          type={showPassword ? "text" : "password"}
+          endAdornment={
+            <InputAdornment position="end">
+              <IconButton
+                aria-label="toggle password visibility"
+                onClick={handleClickShowPassword}
+                onMouseDown={handleMouseDownPassword}
+                edge="end"
+              >
+                {showPassword ? <VisibilityOff /> : <Visibility />}
+              </IconButton>
+            </InputAdornment>
+          }
+        />
+      </FormControl>
