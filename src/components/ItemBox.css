@@ -1,0 +1,7 @@
+.item{
+    padding: .5rem;
+    width:140px;
+    border: 1px dotted gray;
+    background-color: white;
+    margin-top: 4px;
+}

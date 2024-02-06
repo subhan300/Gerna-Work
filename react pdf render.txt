@@ -1,0 +1,9 @@
+library issue solved with tis package
+
+
+"@react-pdf/renderer": "2.1.0",
+"@react-pdf/font": "2.2.0",
+
+"resolutions": {
+    "@react-pdf/font": "2.2.0"
+  },
