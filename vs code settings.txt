@@ -1,0 +1,2 @@
+to open default bash 
+"terminal.integrated.defaultProfile.windows":  "Git Bash"
