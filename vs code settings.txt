@@ -1,2 +1,5 @@
+make a folder .vscode
+make a file
+settings.json
 to open default bash 
 "terminal.integrated.defaultProfile.windows":  "Git Bash"
